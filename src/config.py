@@ -1,4 +1,5 @@
 import os
 from pathlib import Path
 
+
 DATA_LAKE = Path(os.environ.get("DATA_LAKE", "data_lake"))
